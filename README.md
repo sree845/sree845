@@ -32,21 +32,17 @@ Software development engineer with strong CS fundamentals and full-stack capabil
 
 ## Technical Skills
 
-<p>
-<img src="https://img.shields.io/badge/Python-1a1b27?style=for-the-badge&logo=python&logoColor=3776AB">
-<img src="https://img.shields.io/badge/C-1a1b27?style=for-the-badge&logo=c&logoColor=A8B9CC">
-<img src="https://img.shields.io/badge/C++-1a1b27?style=for-the-badge&logo=cplusplus&logoColor=00599C">
-<img src="https://img.shields.io/badge/JavaScript-1a1b27?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
-<img src="https://img.shields.io/badge/SQL-1a1b27?style=for-the-badge&logo=postgresql&logoColor=4479A1">
+<p align="center">
+<img src="https://skillicons.dev/icons?i=python,c,cpp,js,html,css,sqlite,mysql,linux,git,github,vscode&theme=dark" />
 </p>
-<p>
-<img src="https://img.shields.io/badge/asyncio-1a1b27?style=flat-square&logo=python&logoColor=3776AB">
-<img src="https://img.shields.io/badge/OpenMP-1a1b27?style=flat-square&logoColor=FF6600">
-<img src="https://img.shields.io/badge/TCP%2FUDP_Sockets-1a1b27?style=flat-square&logoColor=7aa2f7">
-<img src="https://img.shields.io/badge/SQLite-1a1b27?style=flat-square&logo=sqlite&logoColor=003B57">
-<img src="https://img.shields.io/badge/REST_APIs-1a1b27?style=flat-square&logoColor=bb9af7">
-<img src="https://img.shields.io/badge/Linux-1a1b27?style=flat-square&logo=linux&logoColor=FCC624">
-<img src="https://img.shields.io/badge/Git-1a1b27?style=flat-square&logo=git&logoColor=F05032">
+
+<p align="center">
+<img src="https://img.shields.io/badge/asyncio-24283b?style=flat-square&logoColor=7aa2f7&color=24283b">
+<img src="https://img.shields.io/badge/OpenMP-24283b?style=flat-square&color=24283b">
+<img src="https://img.shields.io/badge/TCP%2FUDP_Sockets-24283b?style=flat-square&color=24283b">
+<img src="https://img.shields.io/badge/REST_APIs-24283b?style=flat-square&color=24283b">
+<img src="https://img.shields.io/badge/LangGraph-24283b?style=flat-square&color=24283b">
+<img src="https://img.shields.io/badge/FAISS-24283b?style=flat-square&color=24283b">
 </p>
 
 <br>
@@ -80,7 +76,7 @@ Software development engineer with strong CS fundamentals and full-stack capabil
 - 87% auto-resolution rate via LLM diagnostics agent
 - Validated across 5 chaos-engineering failure modes
 
-`Python` `asyncio` `Ollama`
+<img src="https://skillicons.dev/icons?i=python&theme=dark" height="28"/> <img src="https://img.shields.io/badge/asyncio-24283b?style=flat-square&color=24283b"> <img src="https://img.shields.io/badge/Ollama-24283b?style=flat-square&color=24283b">
 
 </td>
 <td width="50%" valign="top">
@@ -94,7 +90,7 @@ Software development engineer with strong CS fundamentals and full-stack capabil
 - 2-bit saturating branch predictor (Intel P6 / ARM Cortex-A style)
 - 1.7× decode throughput via OpenMP parallelisation
 
-`C` `OpenMP`
+<img src="https://skillicons.dev/icons?i=c&theme=dark" height="28"/> <img src="https://img.shields.io/badge/OpenMP-24283b?style=flat-square&color=24283b">
 
 </td>
 </tr>
@@ -110,7 +106,7 @@ Concurrent multi-session chatbot with FAISS-backed semantic retrieval.
 - 71% reduction in per-query token usage
 - 10 parallel sessions via asyncio and ThreadPoolExecutor
 
-`Python` `LangGraph` `FAISS`
+<img src="https://skillicons.dev/icons?i=python&theme=dark" height="28"/> <img src="https://img.shields.io/badge/LangGraph-24283b?style=flat-square&color=24283b"> <img src="https://img.shields.io/badge/FAISS-24283b?style=flat-square&color=24283b">
 
 </td>
 <td width="50%" valign="top">
