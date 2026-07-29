@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,100:24283b&height=180&section=header&text=Sthaneekam%20Amrutha%20Sree&fontSize=38&fontColor=7aa2f7&fontAlignY=38&desc=Systems%20Engineer%20%C2%B7%20Scalable,%20Reliable,%20Measured&descAlignY=58&descSize=17&descColor=c0caf5" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,100:24283b&height=180&section=header&text=Sthaneekam%20Amrutha%20Sree&fontSize=38&fontColor=7aa2f7&fontAlignY=38&desc=Software%20Development%20Engineer%20%C2%B7%20Systems%20%2B%20Full%20Stack&descAlignY=58&descSize=17&descColor=c0caf5" />
 
 <a href="https://linkedin.com/in/sthaneekam-amrutha-sree"><img src="https://img.shields.io/badge/LinkedIn-24283b?style=for-the-badge&logo=linkedin&logoColor=7aa2f7"></a>
 <a href="mailto:sthaneekam.amrutha2024@vitstudent.ac.in"><img src="https://img.shields.io/badge/Email-24283b?style=for-the-badge&logo=gmail&logoColor=f7768e"></a>
@@ -15,11 +15,12 @@
 ```yaml
 degree:      B.Tech CSE & Business Systems — VIT Vellore (CGPA 9.2/10, Class of 2028)
 focus:       Scalable systems · Fault tolerance · Efficient algorithms · Distributed systems
+full_stack:  End-to-end application development — server-side logic through deployed UI
 research:    MCP Security (prompt-injection benchmarking) · Edge AI (on-device SLM + RAG)
 certifications: IBM Generative AI Professional Certificate · IBM Agentic AI Professional Certificate (in progress)
 ```
 
-Systems-focused engineer with a consistent emphasis on measured outcomes — every project below is validated with benchmarks, not assumptions.
+Software development engineer with strong CS fundamentals and full-stack capability — comfortable owning a problem from backend architecture through to a working, deployed application. Every project below is validated with benchmarks, not assumptions.
 
 <br>
 
@@ -110,6 +111,18 @@ Two ongoing research projects targeting conference publication. Literature revie
 
 `Research` `LLM Security` `Edge Deployment`
 
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Full-Stack Projects — In Deployment
+Two full-stack web applications currently being finalized for deployment. Details to follow once live.
+
+`JavaScript` `Full Stack` `REST APIs`
+
+</td>
+<td width="50%" valign="top">
 </td>
 </tr>
 </table>
