@@ -19,11 +19,11 @@
 ## About
 
 ```yaml
-degree:      B.Tech CSE & Business Systems — VIT Vellore (CGPA 9.2/10, Class of 2028)
-focus:       Scalable systems · Fault tolerance · Efficient algorithms · Distributed systems
-full_stack:  End-to-end application development — server-side logic through deployed UI
-research:    MCP Security (prompt-injection benchmarking) · Edge AI (on-device SLM + RAG)
-certifications: IBM Generative AI Professional Certificate · IBM Agentic AI Professional Certificate (in progress)
+Degree:      B.Tech CSE & Business Systems — VIT Vellore (CGPA 9.2/10, Class of 2028)
+Focus:       Scalable systems · Fault tolerance · Efficient algorithms · Distributed systems
+Full_stack:  End-to-end application development — server-side logic through deployed UI
+AI_ML:       LLM orchestration, RAG pipelines, multi-agent systems (LangGraph, FAISS)
+Certifications: IBM Generative AI Professional Certificate · IBM Agentic AI Professional Certificate (in progress)
 ```
 
 Software development engineer with strong CS fundamentals and full-stack capability — comfortable owning a problem from backend architecture through to a working, deployed application. Every project below is validated with benchmarks, not assumptions.
@@ -111,32 +111,23 @@ Concurrent multi-session chatbot with FAISS-backed semantic retrieval.
 </td>
 <td width="50%" valign="top">
 
-### Research — In Progress
-**MCP Security** and **Edge AI** (on-device SLM + RAG orchestration)
-
-Two ongoing research projects targeting conference publication. Literature review complete on both; currently in gap analysis.
-
-`Research` `LLM Security` `Edge Deployment`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 ### Full-Stack Projects — In Deployment
 Two full-stack web applications currently being finalized for deployment. Details to follow once live.
 
 `JavaScript` `Full Stack` `REST APIs`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### Portfolio
 <a href="#"><img src="https://img.shields.io/badge/View_Portfolio-7aa2f7?style=for-the-badge&logoColor=white"></a>
 
-Full project write-ups, case studies, and detailed metrics.
+Full project write-ups, case studies, and detailed metrics — including ongoing research work.
 
 </td>
+<td width="50%" valign="top"></td>
 </tr>
 </table>
 
