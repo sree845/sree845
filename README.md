@@ -1,58 +1,127 @@
-<h1 align="center">Hi, I'm Sthaneekam Amrutha Sree 👋</h1>
-<h3 align="center">AI Engineer · Agentic Systems · Building things that hold up under load</h3>
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,100:24283b&height=180&section=header&text=Sthaneekam%20Amrutha%20Sree&fontSize=38&fontColor=7aa2f7&fontAlignY=38&desc=Systems%20Engineer%20%C2%B7%20Scalable,%20Reliable,%20Measured&descAlignY=58&descSize=17&descColor=c0caf5" />
+
+<a href="https://linkedin.com/in/sthaneekam-amrutha-sree"><img src="https://img.shields.io/badge/LinkedIn-24283b?style=for-the-badge&logo=linkedin&logoColor=7aa2f7"></a>
+<a href="mailto:sthaneekam.amrutha2024@vitstudent.ac.in"><img src="https://img.shields.io/badge/Email-24283b?style=for-the-badge&logo=gmail&logoColor=f7768e"></a>
+<a href="https://github.com/sree845"><img src="https://img.shields.io/badge/GitHub-24283b?style=for-the-badge&logo=github&logoColor=c0caf5"></a>
+
+</div>
+
+<br>
+
+## About
+
+```yaml
+degree:      B.Tech CSE & Business Systems — VIT Vellore (CGPA 9.2/10, Class of 2028)
+focus:       Scalable systems · Fault tolerance · Efficient algorithms · Distributed systems
+research:    MCP Security (prompt-injection benchmarking) · Edge AI (on-device SLM + RAG)
+certifications: IBM Generative AI Professional Certificate · IBM Agentic AI Professional Certificate (in progress)
+```
+
+Systems-focused engineer with a consistent emphasis on measured outcomes — every project below is validated with benchmarks, not assumptions.
+
+<br>
+
+## Technical Skills
+
+<p>
+<img src="https://img.shields.io/badge/Python-1a1b27?style=for-the-badge&logo=python&logoColor=3776AB">
+<img src="https://img.shields.io/badge/C-1a1b27?style=for-the-badge&logo=c&logoColor=A8B9CC">
+<img src="https://img.shields.io/badge/C++-1a1b27?style=for-the-badge&logo=cplusplus&logoColor=00599C">
+<img src="https://img.shields.io/badge/JavaScript-1a1b27?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
+<img src="https://img.shields.io/badge/SQL-1a1b27?style=for-the-badge&logo=postgresql&logoColor=4479A1">
+</p>
+<p>
+<img src="https://img.shields.io/badge/asyncio-1a1b27?style=flat-square&logo=python&logoColor=3776AB">
+<img src="https://img.shields.io/badge/OpenMP-1a1b27?style=flat-square&logoColor=FF6600">
+<img src="https://img.shields.io/badge/TCP%2FUDP_Sockets-1a1b27?style=flat-square&logoColor=7aa2f7">
+<img src="https://img.shields.io/badge/SQLite-1a1b27?style=flat-square&logo=sqlite&logoColor=003B57">
+<img src="https://img.shields.io/badge/REST_APIs-1a1b27?style=flat-square&logoColor=bb9af7">
+<img src="https://img.shields.io/badge/Linux-1a1b27?style=flat-square&logo=linux&logoColor=FCC624">
+<img src="https://img.shields.io/badge/Git-1a1b27?style=flat-square&logo=git&logoColor=F05032">
+</p>
+
+<br>
+
+## GitHub Activity
 
 <p align="center">
-  B.Tech CSE & Business Systems, VIT Vellore — CGPA 9.2/10 — Class of 2028
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=sree845&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sree845&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27" />
 </p>
 
-<p align="center">
-  <a href="https://linkedin.com/in/sthaneekam-amrutha-sree"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:sthaneekam.amrutha2024@vitstudent.ac.in"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-</p>
+<br>
 
----
+## Featured Projects
 
-### About Me
-- 🔭 Building multi-agent LLM systems — orchestration, retrieval, and the production plumbing most prototypes skip
-- 🧪 Currently researching **MCP security** (prompt-injection benchmarking) and **Edge AI** (on-device SLM + RAG orchestration) toward publishable/patentable outcomes
-- 📜 IBM Generative AI Professional Certificate · IBM Agentic AI Professional Certificate (in progress)
-- ⚡ I care about measured results — every project below ships with real numbers, not vibes
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### Tech Stack
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white">
-  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black">
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white">
-  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=chainlink&logoColor=white">
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white">
-  <img src="https://img.shields.io/badge/FAISS-4B8BBE?style=flat-square">
-  <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white">
-  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black">
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black">
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
-</p>
+### [ouroboros](https://github.com/sree845/ouroboros)
+**Self-Healing Distributed Pipeline**
 
-### GitHub Stats
-<p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=sree845&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sree845&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
+3-node fault-tolerant pipeline over async TCP sockets with UDP heartbeat monitoring and hysteresis-gated anomaly detection.
 
-### 📌 Featured Projects
+- 22% faster mean-time-to-recovery (51s vs. 65s baseline)
+- 87% auto-resolution rate via LLM diagnostics agent
+- Validated across 5 chaos-engineering failure modes
 
-**[athena](https://github.com/sree845/athena)** — Multi-Agent University Knowledge System
-LLM query classifier at 87% accuracy (vs 71% keyword baseline) · FAISS retrieval cut p95 latency 1.2s→520ms · Precision@5 0.92 vs BM25's 0.71 · 10 parallel sessions via asyncio + ThreadPoolExecutor
+`Python` `asyncio` `Ollama`
 
-**[ouroboros](https://github.com/sree845/ouroboros)** — Self-Healing Distributed Pipeline
-3-node fault-tolerant pipeline with LLM diagnostics agent · 87% auto-resolution rate · 22% faster MTTR (51s vs 65s) validated via chaos engineering across 5 failure modes
+</td>
+<td width="50%" valign="top">
 
-**[chronos](https://github.com/sree845/chronos)** — Cycle-Accurate RISC Pipeline Simulator
-5-stage pipeline simulator in C · Data forwarding cut stalls 69% (16→5 cycles) · 2-bit saturating branch predictor · OpenMP parallel decode at 1.7× throughput
+### [chronos](https://github.com/sree845/chronos)
+**Cycle-Accurate RISC Pipeline Simulator**
 
-<!-- Add Studenthealthmonitoringapp and compatify-myroomie once details are confirmed -->
+5-stage pipeline simulator (IF/ID/EX/MEM/WB) in C with hazard resolution and branch prediction.
 
-### 📫 Reach Me
-📧 sthaneekam.amrutha2024@vitstudent.ac.in · 💼 [LinkedIn](https://linkedin.com/in/sthaneekam-amrutha-sree) · 🐙 [GitHub](https://github.com/sree845)
+- 69% reduction in pipeline stalls via data forwarding
+- 2-bit saturating branch predictor (Intel P6 / ARM Cortex-A style)
+- 1.7× decode throughput via OpenMP parallelisation
+
+`C` `OpenMP`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [athena](https://github.com/sree845/athena)
+**Multi-Agent University Knowledge System**
+
+Concurrent multi-session chatbot with FAISS-backed semantic retrieval.
+
+- p95 latency reduced from 1.2s to 520ms
+- 71% reduction in per-query token usage
+- 10 parallel sessions via asyncio and ThreadPoolExecutor
+
+`Python` `LangGraph` `FAISS`
+
+</td>
+<td width="50%" valign="top">
+
+### Research — In Progress
+**MCP Security** and **Edge AI** (on-device SLM + RAG orchestration)
+
+Two ongoing research projects targeting conference publication. Literature review complete on both; currently in gap analysis.
+
+`Research` `LLM Security` `Edge Deployment`
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<div align="center">
+
+## Contact
+
+sthaneekam.amrutha2024@vitstudent.ac.in · [LinkedIn](https://linkedin.com/in/sthaneekam-amrutha-sree) · [GitHub](https://github.com/sree845)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24283b,100:1a1b27&height=90&section=footer" />
+
+</div>
