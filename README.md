@@ -60,21 +60,9 @@ Software engineer working across AI systems and full-stack development — comfo
 <img src="https://skillicons.dev/icons?i=linux,git,github,vscode&theme=dark" />
 </p>
 
-<br>
 
-## GitHub Activity
 
-<p align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=sree845&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sree845&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27" />
-</p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sree845/sree845/output/github-contribution-grid-snake-dark.svg">
-  <img alt="contribution snake animation" src="https://raw.githubusercontent.com/sree845/sree845/output/github-contribution-grid-snake.svg">
-</picture>
-
-<br>
 
 ## Featured Projects
 
