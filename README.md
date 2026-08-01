@@ -28,8 +28,6 @@ Certifications: IBM Generative AI Professional Certificate (Coursera) · IBM Age
 
 Most interested in applied AI — LLM agents, retrieval systems, and making them reliable outside a notebook — backed by full-stack and systems fundamentals: concurrency, fault tolerance, and shipping a deployed application end to end.
 
-- 🔭 **Currently building:** cloud architecture fundamentals (AWS/Azure), Docker + CI/CD pipelines, and a Java project
-- 📝 **Research in progress:** MCP security and multi-agent systems for edge AI in industrial settings (literature-review stage)
 
 <br>
 
