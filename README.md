@@ -9,6 +9,8 @@
 <a href="https://www.linkedin.com/in/sthaneekam-amrutha-sree-419264328"><img src="https://img.shields.io/badge/LinkedIn-24283b?style=for-the-badge&logo=linkedin&logoColor=7aa2f7"></a>
 <a href="mailto:sthaneekam.amrutha2024@vitstudent.ac.in"><img src="https://img.shields.io/badge/Email-24283b?style=for-the-badge&logo=gmail&logoColor=f7768e"></a>
 <a href="https://github.com/sree845"><img src="https://img.shields.io/badge/GitHub-24283b?style=for-the-badge&logo=github&logoColor=c0caf5"></a>
+<a href="[https://github.com/sree845](https://sree845.github.io)"><img src="https://img.shields.io/badge/GitHub-24283b?style=for-the-badge&logo=github&logoColor=c0caf5"></a>
+
 
 <img src="https://komarev.com/ghpvc/?username=sree845&label=Profile%20Views&color=7aa2f7&style=for-the-badge" />
 
