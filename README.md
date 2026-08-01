@@ -6,7 +6,7 @@
 
 <br><br>
 
-<a href="https://linkedin.com/in/sthaneekam-amrutha-sree"><img src="https://img.shields.io/badge/LinkedIn-24283b?style=for-the-badge&logo=linkedin&logoColor=7aa2f7"></a>
+<a href="https://www.linkedin.com/in/sthaneekam-amrutha-sree-419264328"><img src="https://img.shields.io/badge/LinkedIn-24283b?style=for-the-badge&logo=linkedin&logoColor=7aa2f7"></a>
 <a href="mailto:sthaneekam.amrutha2024@vitstudent.ac.in"><img src="https://img.shields.io/badge/Email-24283b?style=for-the-badge&logo=gmail&logoColor=f7768e"></a>
 <a href="https://github.com/sree845"><img src="https://img.shields.io/badge/GitHub-24283b?style=for-the-badge&logo=github&logoColor=c0caf5"></a>
 
@@ -169,10 +169,8 @@ Daily health check-in system with mood, stress, sleep, and symptom logging.
 
 ## Contact
 
-sthaneekam.amrutha2024@vitstudent.ac.in · [LinkedIn](https://linkedin.com/in/sthaneekam-amrutha-sree) · [GitHub](https://github.com/sree845)
+sthaneekam.amrutha2024@vitstudent.ac.in · [LinkedIn](https://www.linkedin.com/in/sthaneekam-amrutha-sree-419264328) · [GitHub](https://github.com/sree845)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24283b,100:1a1b27&height=90&section=footer" />
-
-</div>
 
 </div>
