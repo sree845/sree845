@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,100:24283b&height=180&section=header&text=Sthaneekam%20Amrutha%20Sree&fontSize=38&fontColor=7aa2f7&fontAlignY=38&desc=Software%20Engineer%20%C2%B7%20AI%20Systems%20%2B%20Full-Stack%20Development&descAlignY=58&descSize=17&descColor=c0caf5" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,100:24283b&height=180&section=header&text=Sthaneekam%20Amrutha%20Sree&fontSize=38&fontColor=7aa2f7&fontAlignY=38&desc=AI%20Systems%20%2B%20Full-Stack%20Development&descAlignY=58&descSize=17&descColor=c0caf5" />
 
 <img src="https://avatars.githubusercontent.com/u/182429743?v=4" width="120" style="border-radius:50%;" />
 
@@ -20,13 +20,16 @@
 
 ```yaml
 Degree:      B.Tech CSE & Business Systems — VIT Vellore (CGPA 9.2/10, Class of 2028)
-Systems:     Scalable systems · Fault tolerance · Efficient algorithms · Distributed systems
 AI_ML:       LLM orchestration, RAG pipelines, multi-agent systems (LangGraph, FAISS)
+Systems:     Scalable systems · Fault tolerance · Efficient algorithms · Distributed systems
 Full_stack:  End-to-end application development — server-side logic through deployed UI
-Certifications: IBM Generative AI Professional Certificate · IBM Agentic AI Professional Certificate (in progress)
+Certifications: IBM Generative AI Professional Certificate (Coursera) · IBM Agentic AI Professional Certificate (IBM Training, 2026)
 ```
 
-Software engineer working across AI systems and full-stack development — comfortable designing an LLM pipeline, reasoning about concurrency and fault tolerance, or shipping a deployed application end to end. Every project below is validated with benchmarks.
+Most interested in applied AI — LLM agents, retrieval systems, and making them reliable outside a notebook — backed by full-stack and systems fundamentals: concurrency, fault tolerance, and shipping a deployed application end to end.
+
+- 🔭 **Currently building:** cloud architecture fundamentals (AWS/Azure), Docker + CI/CD pipelines, and a Java project
+- 📝 **Research in progress:** MCP security and multi-agent systems for edge AI in industrial settings (literature-review stage)
 
 <br>
 
@@ -60,9 +63,7 @@ Software engineer working across AI systems and full-stack development — comfo
 <img src="https://skillicons.dev/icons?i=linux,git,github,vscode&theme=dark" />
 </p>
 
-
-
-
+<br>
 
 ## Featured Projects
 
@@ -108,7 +109,7 @@ Django-based delivery slot booking system with race-condition-safe booking logic
 
 - 22% faster mean-time-to-recovery (51s vs. 65s baseline)
 - 87% auto-resolution rate via LLM diagnostics agent
-- Validated across 5 chaos-engineering failure modes
+- Validated across 5 chaos-engineering failure modes, 10-trial A/B test
 
 <img src="https://skillicons.dev/icons?i=python&theme=dark" height="28"/> <img src="https://img.shields.io/badge/asyncio-24283b?style=flat-square&color=24283b"> <img src="https://img.shields.io/badge/Ollama-24283b?style=flat-square&color=24283b">
 
@@ -122,8 +123,8 @@ Weighted compatibility engine matching users on sleep schedule, study style, noi
 
 - Configurable weighted scoring (sleep 30% · study 25% · cleanliness 25% · noise 20%)
 - JWT authentication with bcrypt password hashing
-- In-app roommate requests and direct messaging
-- REST API backed by automated tests
+- In-app roommate requests and persisted 1:1 chat
+- 27 automated tests — the scoring algorithm is a dependency-free module tested identically on client and server
 
 <img src="https://skillicons.dev/icons?i=nodejs,express,react,sqlite&theme=dark" height="28"/>
 
@@ -138,7 +139,7 @@ Weighted compatibility engine matching users on sleep schedule, study style, noi
 5-stage pipeline simulator (IF/ID/EX/MEM/WB) in C with hazard resolution and branch prediction.
 
 - 69% reduction in pipeline stalls via data forwarding
-- 2-bit saturating branch predictor (Intel P6 / ARM Cortex-A style)
+- 2-bit saturating-counter branch predictor
 - 1.7× decode throughput via OpenMP parallelisation
 
 <img src="https://skillicons.dev/icons?i=c&theme=dark" height="28"/> <img src="https://img.shields.io/badge/OpenMP-24283b?style=flat-square&color=24283b">
@@ -151,25 +152,14 @@ Weighted compatibility engine matching users on sleep schedule, study style, noi
 
 Daily health check-in system with mood, stress, sleep, and symptom logging.
 
-- Duolingo-style check-in streak, implemented as a pure, unit-tested function
+- Server-computed check-in streak, unit-tested for edge cases (gaps, duplicate same-day entries)
 - Symptom checker and health history views
 - Emergency contacts management
-- JWT-authenticated REST API
+- JWT-authenticated REST API, 21 automated backend tests
 
 <img src="https://skillicons.dev/icons?i=nextjs,nodejs,express&theme=dark" height="28"/>
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### Portfolio
-<a href="#"><img src="https://img.shields.io/badge/View_Portfolio-7aa2f7?style=for-the-badge&logoColor=white"></a>
-
-Full project write-ups, case studies, and detailed metrics — including ongoing research work.
-
-</td>
-<td width="50%" valign="top"></td>
 </tr>
 </table>
 
@@ -182,5 +172,7 @@ Full project write-ups, case studies, and detailed metrics — including ongoing
 sthaneekam.amrutha2024@vitstudent.ac.in · [LinkedIn](https://linkedin.com/in/sthaneekam-amrutha-sree) · [GitHub](https://github.com/sree845)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24283b,100:1a1b27&height=90&section=footer" />
+
+</div>
 
 </div>
