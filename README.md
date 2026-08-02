@@ -20,14 +20,13 @@
 
 ```yaml
 Degree:      B.Tech CSE & Business Systems — VIT Vellore (CGPA 9.2/10, Class of 2028)
+Systems:     Scalable systems · Fault tolerance · Concurrency · Distributed systems · Efficient algorithms
 AI_ML:       LLM orchestration, RAG pipelines, multi-agent systems (LangGraph, FAISS)
-Systems:     Scalable systems · Fault tolerance · Efficient algorithms · Distributed systems
 Full_stack:  End-to-end application development — server-side logic through deployed UI
 Certifications: IBM Generative AI Professional Certificate (Coursera) · IBM Agentic AI Professional Certificate (IBM Training, 2026)
 ```
 
-Most interested in applied AI — LLM agents, retrieval systems, and making them reliable outside a notebook — backed by full-stack and systems fundamentals: concurrency, fault tolerance, and shipping a deployed application end to end.
-
+Most interested in building reliable systems that hold up under real load — fault tolerance, concurrency, and real-time monitoring/automation — and applying AI on top of that foundation rather than around it.
 
 <br>
 
@@ -35,6 +34,18 @@ Most interested in applied AI — LLM agents, retrieval systems, and making them
 
 <p align="center">
 <img src="https://skillicons.dev/icons?i=python,c,cpp,js,html,css&theme=dark" />
+</p>
+
+**Systems & Backend**
+<p align="center">
+<img src="https://skillicons.dev/icons?i=nodejs,express,react,nextjs,django,sqlite&theme=dark" />
+</p>
+<p align="center">
+<img src="https://img.shields.io/badge/asyncio-24283b?style=flat-square&color=24283b">
+<img src="https://img.shields.io/badge/OpenMP-24283b?style=flat-square&color=24283b">
+<img src="https://img.shields.io/badge/TCP%2FUDP_Sockets-24283b?style=flat-square&color=24283b">
+<img src="https://img.shields.io/badge/REST_APIs-24283b?style=flat-square&color=24283b">
+<img src="https://img.shields.io/badge/JWT_Auth-24283b?style=flat-square&color=24283b">
 </p>
 
 **AI / ML**
@@ -46,17 +57,6 @@ Most interested in applied AI — LLM agents, retrieval systems, and making them
 <img src="https://img.shields.io/badge/HuggingFace-24283b?style=flat-square&logo=huggingface&logoColor=FFD21E">
 </p>
 
-**Full-Stack & Systems**
-<p align="center">
-<img src="https://skillicons.dev/icons?i=nodejs,express,react,nextjs,django,sqlite&theme=dark" />
-</p>
-<p align="center">
-<img src="https://img.shields.io/badge/asyncio-24283b?style=flat-square&color=24283b">
-<img src="https://img.shields.io/badge/OpenMP-24283b?style=flat-square&color=24283b">
-<img src="https://img.shields.io/badge/TCP%2FUDP_Sockets-24283b?style=flat-square&color=24283b">
-<img src="https://img.shields.io/badge/REST_APIs-24283b?style=flat-square&color=24283b">
-<img src="https://img.shields.io/badge/JWT_Auth-24283b?style=flat-square&color=24283b">
-</p>
 <p align="center">
 <img src="https://skillicons.dev/icons?i=linux,git,github,vscode&theme=dark" />
 </p>
@@ -69,16 +69,16 @@ Most interested in applied AI — LLM agents, retrieval systems, and making them
 <tr>
 <td width="50%" valign="top">
 
-### [athena](https://github.com/sree845/athena)
-**Multi-Agent University Knowledge System**
+### [ouroboros](https://github.com/sree845/ouroboros)
+**Self-Healing Distributed Pipeline**
 
-Concurrent multi-session chatbot with FAISS-backed semantic retrieval.
+3-node fault-tolerant pipeline over async TCP sockets with UDP heartbeat monitoring and hysteresis-gated anomaly detection to avoid false-positive interventions.
 
-- 90% classification accuracy vs. ~18% keyword-matching baseline
-- ~70% lower per-query token cost
-- 10 parallel sessions via asyncio and ThreadPoolExecutor
+- LLM diagnostics agent (local Ollama) automatically detects failures and dispatches repair actions
+- Chaos-engineering harness injecting 5 failure modes to benchmark automated recovery
+- Full structured audit logging of every automated repair decision
 
-<img src="https://skillicons.dev/icons?i=python&theme=dark" height="28"/> <img src="https://img.shields.io/badge/LangGraph-24283b?style=flat-square&color=24283b"> <img src="https://img.shields.io/badge/FAISS-24283b?style=flat-square&color=24283b">
+<img src="https://skillicons.dev/icons?i=python&theme=dark" height="28"/> <img src="https://img.shields.io/badge/asyncio-24283b?style=flat-square&color=24283b"> <img src="https://img.shields.io/badge/Ollama-24283b?style=flat-square&color=24283b">
 
 </td>
 <td width="50%" valign="top">
@@ -88,10 +88,10 @@ Concurrent multi-session chatbot with FAISS-backed semantic retrieval.
 
 Django-based delivery slot booking system with race-condition-safe booking logic.
 
-- Booking safety enforced via `select_for_update()` inside `transaction.atomic()` — prevents two users from ever claiming the same slot concurrently
+- Row-level locking (`select_for_update()` inside `transaction.atomic()`), verified via a dedicated race-condition test — prevents two users from claiming the same slot
 - Auto-assignment to the next available overlapping slot when a preferred one is full
 - Full booking lifecycle (Pending → Booked → Delivered/Cancelled/Rescheduled) with a staff-only admin workflow
-- Token-authenticated REST API via Django REST Framework, 14 automated tests including the double-booking race condition
+- Token-authenticated REST API via Django REST Framework, 14 automated tests
 
 <img src="https://skillicons.dev/icons?i=py,django,sqlite&theme=dark" height="28"/>
 
@@ -100,17 +100,34 @@ Django-based delivery slot booking system with race-condition-safe booking logic
 <tr>
 <td width="50%" valign="top">
 
-### [ouroboros](https://github.com/sree845/ouroboros)
-**Self-Healing Distributed Pipeline**
+### [athena](https://github.com/sree845/athena)
+**Multi-Agent University Knowledge System**
 
-3-node fault-tolerant pipeline over async TCP sockets with UDP heartbeat monitoring and hysteresis-gated anomaly detection.
+Concurrent multi-session chatbot with LLM-based query classification and FAISS-backed semantic retrieval.
 
-- 71% repair success rate via LLM diagnostics agent
-- Validated across 5 chaos-engineering failure modes, 7 trials
+- 90% classification accuracy vs. ~18% keyword-matching baseline, validated against a 200-query labeled test set
+- Confidence-gated routing — low-confidence queries are routed to a clarifying step instead of guessed
+- 10 parallel sessions via asyncio and ThreadPoolExecutor, with per-user rate limiting
 
-<img src="https://skillicons.dev/icons?i=python&theme=dark" height="28"/> <img src="https://img.shields.io/badge/asyncio-24283b?style=flat-square&color=24283b"> <img src="https://img.shields.io/badge/Ollama-24283b?style=flat-square&color=24283b">
+<img src="https://skillicons.dev/icons?i=python&theme=dark" height="28"/> <img src="https://img.shields.io/badge/LangGraph-24283b?style=flat-square&color=24283b"> <img src="https://img.shields.io/badge/FAISS-24283b?style=flat-square&color=24283b">
 
 </td>
+<td width="50%" valign="top">
+
+### [chronos](https://github.com/sree845/chronos)
+**Cycle-Accurate RISC Pipeline Simulator**
+
+5-stage pipeline simulator (IF/ID/EX/MEM/WB) in C with hazard resolution and branch prediction.
+
+- Data-forwarding hazard resolution benchmarked A/B against a stall-only baseline
+- 2-bit saturating-counter branch predictor
+- Decode/hazard-detection pass parallelized with OpenMP
+
+<img src="https://skillicons.dev/icons?i=c&theme=dark" height="28"/> <img src="https://img.shields.io/badge/OpenMP-24283b?style=flat-square&color=24283b">
+
+</td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### [Roomate-Compatify](https://github.com/sree845/Roomate-Compatify) · [Live](https://roomate-compatify.vercel.app/)
@@ -126,21 +143,6 @@ Weighted compatibility engine matching users on sleep schedule, study style, noi
 <img src="https://skillicons.dev/icons?i=nodejs,express,react,sqlite&theme=dark" height="28"/>
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [chronos](https://github.com/sree845/chronos)
-**Cycle-Accurate RISC Pipeline Simulator**
-
-5-stage pipeline simulator (IF/ID/EX/MEM/WB) in C with hazard resolution and branch prediction.
-
-- 69% reduction in pipeline stalls via data forwarding
-- 2-bit saturating-counter branch predictor
-
-<img src="https://skillicons.dev/icons?i=c&theme=dark" height="28"/> <img src="https://img.shields.io/badge/OpenMP-24283b?style=flat-square&color=24283b">
-
-</td>
 <td width="50%" valign="top">
 
 ### [Studenthealthmonitor](https://github.com/sree845/Studenthealthmonitor) · [Live](https://studenthealthmonitor.vercel.app/)
@@ -150,8 +152,8 @@ Daily health check-in system with mood, stress, sleep, and symptom logging.
 
 - Server-computed check-in streak, unit-tested for edge cases (gaps, duplicate same-day entries)
 - Symptom checker and health history views
-- Emergency contacts management
-- JWT-authenticated REST API, 21 automated backend tests
+- Emergency contacts management, scoped and isolated per user
+- JWT-authenticated REST API, 14 automated backend tests (API + streak logic)
 
 <img src="https://skillicons.dev/icons?i=nextjs,nodejs,express&theme=dark" height="28"/>
 
