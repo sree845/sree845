@@ -8,7 +8,7 @@
 
 <a href="https://www.linkedin.com/in/sthaneekam-amrutha-sree-419264328"><img src="https://img.shields.io/badge/LinkedIn-24283b?style=for-the-badge&logo=linkedin&logoColor=7aa2f7"></a>
 <a href="https://github.com/sree845"><img src="https://img.shields.io/badge/GitHub-24283b?style=for-the-badge&logo=github&logoColor=c0caf5"></a>
-<a href="https://sree845.github.io"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logoColor=c0cab5"></a>
+<a href="https://sree845.github.io"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=githubpages&logoColor=c0caf5"></a>
 
 <img src="https://komarev.com/ghpvc/?username=sree845&label=Profile%20Views&color=7aa2f7&style=for-the-badge" />
 
@@ -74,8 +74,8 @@ Most interested in applied AI — LLM agents, retrieval systems, and making them
 
 Concurrent multi-session chatbot with FAISS-backed semantic retrieval.
 
-- p95 latency reduced from 1.2s to 520ms
-- 71% reduction in per-query token usage
+- 90% classification accuracy vs. ~18% keyword-matching baseline
+- ~70% lower per-query token cost
 - 10 parallel sessions via asyncio and ThreadPoolExecutor
 
 <img src="https://skillicons.dev/icons?i=python&theme=dark" height="28"/> <img src="https://img.shields.io/badge/LangGraph-24283b?style=flat-square&color=24283b"> <img src="https://img.shields.io/badge/FAISS-24283b?style=flat-square&color=24283b">
@@ -91,7 +91,7 @@ Django-based delivery slot booking system with race-condition-safe booking logic
 - Booking safety enforced via `select_for_update()` inside `transaction.atomic()` — prevents two users from ever claiming the same slot concurrently
 - Auto-assignment to the next available overlapping slot when a preferred one is full
 - Full booking lifecycle (Pending → Booked → Delivered/Cancelled/Rescheduled) with a staff-only admin workflow
-- REST API via Django REST Framework, 14 automated tests including the double-booking race condition
+- Token-authenticated REST API via Django REST Framework, 14 automated tests including the double-booking race condition
 
 <img src="https://skillicons.dev/icons?i=py,django,sqlite&theme=dark" height="28"/>
 
@@ -105,9 +105,8 @@ Django-based delivery slot booking system with race-condition-safe booking logic
 
 3-node fault-tolerant pipeline over async TCP sockets with UDP heartbeat monitoring and hysteresis-gated anomaly detection.
 
-- 22% faster mean-time-to-recovery (51s vs. 65s baseline)
-- 87% auto-resolution rate via LLM diagnostics agent
-- Validated across 5 chaos-engineering failure modes, 10-trial A/B test
+- 71% repair success rate via LLM diagnostics agent
+- Validated across 5 chaos-engineering failure modes, 7 trials
 
 <img src="https://skillicons.dev/icons?i=python&theme=dark" height="28"/> <img src="https://img.shields.io/badge/asyncio-24283b?style=flat-square&color=24283b"> <img src="https://img.shields.io/badge/Ollama-24283b?style=flat-square&color=24283b">
 
@@ -138,7 +137,6 @@ Weighted compatibility engine matching users on sleep schedule, study style, noi
 
 - 69% reduction in pipeline stalls via data forwarding
 - 2-bit saturating-counter branch predictor
-- 1.7× decode throughput via OpenMP parallelisation
 
 <img src="https://skillicons.dev/icons?i=c&theme=dark" height="28"/> <img src="https://img.shields.io/badge/OpenMP-24283b?style=flat-square&color=24283b">
 
