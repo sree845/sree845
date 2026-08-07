@@ -90,7 +90,7 @@ Multi-agent AI system on live AWS infrastructure where independently-reasoning L
 3-node fault-tolerant pipeline over async TCP sockets with UDP heartbeat monitoring and hysteresis-gated anomaly detection to avoid false-positive interventions.
 
 - LLM diagnostics agent (local Ollama) automatically detects failures and dispatches repair actions
-- Chaos-engineering harness injecting 5 failure modes to benchmark automated recovery
+- Chaos-engineering harness injecting multiple failure modes to benchmark automated recovery
 - Full structured audit logging of every automated repair decision
 
 <img src="https://skillicons.dev/icons?i=python&theme=dark" height="28"/> <img src="https://img.shields.io/badge/asyncio-24283b?style=flat-square&color=24283b"> <img src="https://img.shields.io/badge/Ollama-24283b?style=flat-square&color=24283b">
@@ -108,7 +108,7 @@ Django-based delivery slot booking system with race-condition-safe booking logic
 - Row-level locking (`select_for_update()` inside `transaction.atomic()`), verified via a dedicated race-condition test — prevents two users from claiming the same slot
 - Auto-assignment to the next available overlapping slot when a preferred one is full
 - Full booking lifecycle (Pending → Booked → Delivered/Cancelled/Rescheduled) with a staff-only admin workflow
-- Token-authenticated REST API via Django REST Framework, 14 automated tests
+- Token-authenticated REST API via Django REST Framework, covered by automated tests
 
 <img src="https://skillicons.dev/icons?i=py,django,sqlite&theme=dark" height="28"/>
 
@@ -120,9 +120,9 @@ Django-based delivery slot booking system with race-condition-safe booking logic
 
 Concurrent multi-session chatbot with LLM-based query classification and FAISS-backed semantic retrieval.
 
-- 90% classification accuracy vs. ~18% keyword-matching baseline, validated against a 200-query labeled test set
+- Classification-based routing significantly outperforms a keyword-matching baseline, validated against a labeled test set
 - Confidence-gated routing — low-confidence queries are routed to a clarifying step instead of guessed
-- 10 parallel sessions via asyncio and ThreadPoolExecutor, with per-user rate limiting
+- Supports parallel sessions via asyncio and ThreadPoolExecutor, with per-user rate limiting
 
 <img src="https://skillicons.dev/icons?i=python&theme=dark" height="28"/> <img src="https://img.shields.io/badge/LangGraph-24283b?style=flat-square&color=24283b"> <img src="https://img.shields.io/badge/FAISS-24283b?style=flat-square&color=24283b">
 
@@ -153,7 +153,7 @@ Weighted compatibility engine matching users on sleep schedule, study style, noi
 - Configurable weighted scoring (sleep 30% · study 25% · cleanliness 25% · noise 20%)
 - JWT authentication with bcrypt password hashing
 - In-app roommate requests and persisted 1:1 chat
-- 27 automated tests — the scoring algorithm is a dependency-free module tested identically on client and server
+- Covered by an automated test suite — the scoring algorithm is a dependency-free module tested identically on client and server
 
 <img src="https://skillicons.dev/icons?i=nodejs,express,react,sqlite&theme=dark" height="28"/>
 
@@ -170,7 +170,7 @@ Daily health check-in system with mood, stress, sleep, and symptom logging.
 - Server-computed check-in streak, unit-tested for edge cases (gaps, duplicate same-day entries)
 - Symptom checker and health history views
 - Emergency contacts management, scoped and isolated per user
-- JWT-authenticated REST API, 14 automated backend tests (API + streak logic)
+- JWT-authenticated REST API, covered by automated backend tests (API + streak logic)
 
 <img src="https://skillicons.dev/icons?i=nextjs,nodejs,express&theme=dark" height="28"/>
 
