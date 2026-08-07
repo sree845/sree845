@@ -69,6 +69,21 @@ Most interested in building reliable systems that hold up under real load — fa
 <tr>
 <td width="50%" valign="top">
 
+### [CloudPilot](https://github.com/sree845/cloudpilot)
+**Multi-Agent AI System for Cloud Ops**
+
+Multi-agent AI system on live AWS infrastructure where independently-reasoning LLM agents evaluate the same resources from different priorities (cost, reliability, security), with an arbitrator agent resolving disagreements through evidence-based reasoning.
+
+- Three specialist agents reason independently from real AWS data (instance metadata, live CloudWatch CPU metrics, security group exposure) rather than a single pipeline making all calls
+- Arbitrator agent enforces a hard tag-based eligibility rule at both the prompt and code level, so no agent's argument can override it
+- Risk-tiered remediation: low-risk actions auto-execute after independent live tag re-verification; ambiguous/high-risk cases route to a human-in-the-loop approval gate
+- Every decision — skipped, blocked, executed, deferred — permanently recorded to a queryable audit log
+
+<img src="https://skillicons.dev/icons?i=python,aws&theme=dark" height="28"/> <img src="https://img.shields.io/badge/boto3-24283b?style=flat-square&color=24283b"> <img src="https://img.shields.io/badge/Groq_API-24283b?style=flat-square&color=24283b">
+
+</td>
+<td width="50%" valign="top">
+
 ### [ouroboros](https://github.com/sree845/ouroboros)
 **Self-Healing Distributed Pipeline**
 
@@ -81,6 +96,8 @@ Most interested in building reliable systems that hold up under real load — fa
 <img src="https://skillicons.dev/icons?i=python&theme=dark" height="28"/> <img src="https://img.shields.io/badge/asyncio-24283b?style=flat-square&color=24283b"> <img src="https://img.shields.io/badge/Ollama-24283b?style=flat-square&color=24283b">
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### [Smartparcelcue](https://github.com/sree845/Smartparcelcue) · [Live](https://smartparcelcue-5mq5.onrender.com)
@@ -96,8 +113,6 @@ Django-based delivery slot booking system with race-condition-safe booking logic
 <img src="https://skillicons.dev/icons?i=py,django,sqlite&theme=dark" height="28"/>
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### [athena](https://github.com/sree845/athena)
@@ -112,6 +127,8 @@ Concurrent multi-session chatbot with LLM-based query classification and FAISS-b
 <img src="https://skillicons.dev/icons?i=python&theme=dark" height="28"/> <img src="https://img.shields.io/badge/LangGraph-24283b?style=flat-square&color=24283b"> <img src="https://img.shields.io/badge/FAISS-24283b?style=flat-square&color=24283b">
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### [chronos](https://github.com/sree845/chronos)
@@ -126,8 +143,6 @@ Concurrent multi-session chatbot with LLM-based query classification and FAISS-b
 <img src="https://skillicons.dev/icons?i=c&theme=dark" height="28"/> <img src="https://img.shields.io/badge/OpenMP-24283b?style=flat-square&color=24283b">
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### [Roomate-Compatify](https://github.com/sree845/Roomate-Compatify) · [Live](https://roomate-compatify.vercel.app/)
@@ -143,6 +158,8 @@ Weighted compatibility engine matching users on sleep schedule, study style, noi
 <img src="https://skillicons.dev/icons?i=nodejs,express,react,sqlite&theme=dark" height="28"/>
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### [Studenthealthmonitor](https://github.com/sree845/Studenthealthmonitor) · [Live](https://studenthealthmonitor.vercel.app/)
